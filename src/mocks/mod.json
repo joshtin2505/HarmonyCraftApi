@@ -1,0 +1,26 @@
+{
+    "emotions": [
+      "joy",
+      "sadness",
+      "excitement",
+      "peace",
+      "anger",
+      "love",
+      "fear",
+      "hope",
+      "nostalgia",
+      "calm"
+    ],
+    "emociones": [
+      "alegría",
+      "tristeza",
+      "emoción",
+      "paz",
+      "ira",
+      "amor",
+      "miedo",
+      "esperanza",
+      "nostalgia",
+      "calma"
+    ]
+}

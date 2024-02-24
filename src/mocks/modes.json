@@ -1,0 +1,89 @@
+{
+    "modes_es": [
+        {
+            "nombre": "Jónico",
+            "descripcion": "Escala mayor",
+            "emocion": "Alegre",
+            "structura": "T-T-ST-T-T-T-ST"
+        },{
+            "nombre": "Dórico",
+            "descripcion": "Escala menor con sexta mayor",
+            "emocion": "Melancólico",
+            "structura": "T-ST-T-T-T-ST-T"
+        },
+        {
+            "nombre": "Frigio",
+            "descripcion": "Escala menor con segunda menor",
+            "emocion": "Exótico",
+            "structura": "ST-T-T-T-ST-T-T"
+        },
+        {
+            "nombre": "Lidio",
+            "descripcion": "Escala mayor con cuarta aumentada",
+            "emocion": "Misterioso",
+            "structura": "T-T-T-ST-T-T-ST"
+        },
+        {
+            "nombre": "Mixolidio",
+            "descripcion": "Escala mayor con séptima menor",
+            "emocion": "Fiesta",
+            "structura": "T-T-ST-T-T-ST-T"
+        },
+        {
+            "nombre": "Eólico",
+            "descripcion": "Escala menor natural",
+            "emocion": "Triste",
+            "structura": "T-ST-T-T-ST-T-T"
+        },
+        {
+            "nombre": "Locrio",
+            "descripcion": "Escala menor con segunda y quinta disminuidas",
+            "emocion": "Inquietante",
+            "structura": "ST-T-T-ST-T-T-T"
+        }
+    ],
+    "modes_en": [
+        {
+            "name": "Ionian",
+            "description": "Major scale",
+            "emotions": "Happy",
+            "structure": "T-T-ST-T-T-T-ST"
+        },
+        {
+            "name": "Dorian",
+            "description": "Minor scale with major sixth",
+            "emotions": "Melancholic",
+            "structure": "T-ST-T-T-T-ST-T"
+        },
+        {
+            "name": "Phrygian",
+            "description": "Minor scale with minor second",
+            "emotions": "Exotic",
+            "structure": "ST-T-T-T-ST-T-T"
+        },
+        {
+            "name": "Lydian",
+            "description": "Major scale with augmented fourth",
+            "emotions": "Mysterious",
+            "structure": "T-T-T-ST-T-T-ST"
+        },
+        {
+            "name": "Mixolydian",
+            "description": "Major scale with minor seventh",
+            "emotions": "Festive",
+            "structure": "T-T-ST-T-T-ST-T"
+        },
+        {
+            "name": "Aeolian",
+            "description": "Natural minor scale",
+            "emotions": "Sad",
+            "structure": "T-ST-T-T-ST-T-T"
+        },
+        {
+            "name": "Locrian",
+            "description": "Minor scale with diminished second and fifth",
+            "emotions": "Eerie",
+            "structure": "ST-T-T-ST-T-T-T"
+        }
+    ]
+}
