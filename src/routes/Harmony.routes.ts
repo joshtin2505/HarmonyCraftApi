@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { getAllNotes, getMod } from '../controllers/Harmony.controler'
+import { getAllNotes, getMod } from '../controllers/Harmony.controller'
 
 const router = Router()
 router.get('/notes', getAllNotes)
