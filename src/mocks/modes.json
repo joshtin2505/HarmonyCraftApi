@@ -1,45 +1,45 @@
 {
     "modes_es": [
         {
-            "nombre": "Jónico",
-            "descripcion": "Escala mayor",
-            "emocion": "Alegre",
-            "structura": "T-T-ST-T-T-T-ST"
+            "name": "Jónico",
+            "description": "Escala mayor",
+            "emotion": "Alegre",
+            "structure": "T-T-ST-T-T-T-ST"
         },{
-            "nombre": "Dórico",
-            "descripcion": "Escala menor con sexta mayor",
-            "emocion": "Melancólico",
-            "structura": "T-ST-T-T-T-ST-T"
+            "name": "Dórico",
+            "description": "Escala menor con sexta mayor",
+            "emotion": "Melancólico",
+            "structure": "T-ST-T-T-T-ST-T"
         },
         {
-            "nombre": "Frigio",
-            "descripcion": "Escala menor con segunda menor",
-            "emocion": "Exótico",
-            "structura": "ST-T-T-T-ST-T-T"
+            "name": "Frigio",
+            "description": "Escala menor con segunda menor",
+            "emotion": "Exótico",
+            "structure": "ST-T-T-T-ST-T-T"
         },
         {
-            "nombre": "Lidio",
-            "descripcion": "Escala mayor con cuarta aumentada",
-            "emocion": "Misterioso",
-            "structura": "T-T-T-ST-T-T-ST"
+            "name": "Lidio",
+            "description": "Escala mayor con cuarta aumentada",
+            "emotion": "Misterioso",
+            "structure": "T-T-T-ST-T-T-ST"
         },
         {
-            "nombre": "Mixolidio",
-            "descripcion": "Escala mayor con séptima menor",
-            "emocion": "Fiesta",
-            "structura": "T-T-ST-T-T-ST-T"
+            "name": "Mixolidio",
+            "description": "Escala mayor con séptima menor",
+            "emotion": "Fiesta",
+            "structure": "T-T-ST-T-T-ST-T"
         },
         {
-            "nombre": "Eólico",
-            "descripcion": "Escala menor natural",
-            "emocion": "Triste",
-            "structura": "T-ST-T-T-ST-T-T"
+            "name": "Eólico",
+            "description": "Escala menor natural",
+            "emotion": "Triste",
+            "structure": "T-ST-T-T-ST-T-T"
         },
         {
-            "nombre": "Locrio",
-            "descripcion": "Escala menor con segunda y quinta disminuidas",
-            "emocion": "Inquietante",
-            "structura": "ST-T-T-ST-T-T-T"
+            "name": "Locrio",
+            "description": "Escala menor con segunda y quinta disminuidas",
+            "emotion": "Inquietante",
+            "structure": "ST-T-T-ST-T-T-T"
         }
     ],
     "modes_en": [
