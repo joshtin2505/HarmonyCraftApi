@@ -11,7 +11,8 @@
   },
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/quotes": "warn",
+    "@typescript-eslint/quotes": ["warn", "backtick"], // Enable template strings
     "@typescript-eslint/space-before-function-paren": "off"
+    
   }
 }
