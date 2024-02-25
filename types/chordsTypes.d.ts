@@ -1,24 +1,23 @@
-type MajChord = `${Note}` | `${Note}${Alteration}`
 type MinChord = `${string}Min` | `${Note}${Alteration}Min`
 type DimChord = `${string}Dim` | `${Note}${Alteration}Dim`
 type AugChord = `${string}Aug` | `${Note}${Alteration}Aug`
-type BaseChord = MajChord | MinChord | DimChord | AugChord
+type BaseChord = Note | MinChord | DimChord | AugChord
 type SeventhChord =
-  | `${MajChord}7`
-  | `${MajChord}Maj7`
+  | `${Note}7`
+  | `${Note}Maj7`
   | `${MinChord}7`
   | `${DimChord}7`
   | `${AugChord}7`
 type Sus = 'Sus2' | 'Sus4' | 'Sus6' | 'Sus9'
 type SuspendedChord =
-  | `${MajChord}${Sus}`
+  | `${Note}${Sus}`
   | `${MinChord}${Sus}`
   | `${SeventhChord}${Sus}`
   | `${DimChord}${Sus}`
   | `${AugChord}${Sus}`
 type Add = 'Add2' | 'Add4' | 'Add6' | 'Add9'
 type AddedChord =
-  | `${MajChord}${Add}`
+  | `${Note}${Add}`
   | `${MinChord}${Add}`
   | `${SeventhChord}${Add}`
   | `${DimChord}${Add}`
