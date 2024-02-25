@@ -1,5 +1,3 @@
-type Note = 'C' | 'D' | 'E' | 'F' | 'G' | 'A' | 'B'
-type Alteration = '♭' | '#'
 type MajChord = `${Note}` | `${Note}${Alteration}`
 type MinChord = `${string}Min` | `${Note}${Alteration}Min`
 type DimChord = `${string}Dim` | `${Note}${Alteration}Dim`
