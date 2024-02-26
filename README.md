@@ -4,26 +4,27 @@
 > This API is created from musicans for musicans. 
 
 ## End Points
-
+`https://harmonycraftapi.onrender.com/api`
 ``` js
     endPoints: [
       {
-        url: '/tone/nat/maj',
+        url: 'api/notes',
         method: 'GET',
-        description: 'Get a random tone'
+        description: 'Get all notes'
       },
       {
-        url: '/tone/nat/min',
+        url: 'api/mod',
         method: 'GET',
-        description: 'Get a random tone'
+        description: 'Get all mods'
       },
       {
-        url: '/tone/nat',
+        url: 'api/modes',
         method: 'GET',
-        description: 'Get a random tone'
+        description: 'Get all modes'
       },
       {
-        url: '/tone',
+        url: 'api/random/tone',
+        params: ['nat - alt', 'min - maj'],
         method: 'GET',
         description: 'Get a random tone'
       }
