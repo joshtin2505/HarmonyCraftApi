@@ -1,8 +1,7 @@
 import { Router } from 'express'
-import { toneRandomizer } from '../controllers/Randomizer.controller'
+import { getToneRandomizer } from '../controllers/Randomizer.controller'
 
 const router = Router()
-router.get('/tone/:minoMaj?', toneRandomizer)
-router.get('/tone/:altoNat?/:minoMaj?', toneRandomizer)
+router.get('/tone/:altoNat?/:minoMaj?', getToneRandomizer)
 
 export default router
