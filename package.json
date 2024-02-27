@@ -8,6 +8,7 @@
     "build": "tsc",
     "dev": "ts-node-dev src/index.ts",
     "start": "node build/index.js",
+    "deploy": "pnpm install && pnpm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "pretcheck": "prettier . --check",
     "pretwrite": "prettier . -w"
