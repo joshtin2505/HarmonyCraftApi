@@ -11,7 +11,13 @@
   },
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/quotes": ["warn", "single", { "allowTemplateLiterals": true }],
+    "@typescript-eslint/quotes": [
+      "warn", 
+      "single", 
+      { 
+        "allowTemplateLiterals": true 
+      }
+    ],
     "@typescript-eslint/space-before-function-paren": "off"
   }
 }
