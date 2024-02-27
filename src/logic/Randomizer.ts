@@ -11,34 +11,28 @@ function toneRandomizer({
   let randomTone: Note
   const altoNatToLowerCase = altoNat?.toLowerCase()
   const minoMajToLowerCase = minoMaj?.toLowerCase()
-  if (altoNatToLowerCase === 'nat' && minoMajToLowerCase === undefined) {
+  if (altoNatToLowerCase === 'nat') {
     randomTone = notes[Math.floor(Math.random() * notes.length)] as Note
     while (randomTone.includes('#') || randomTone.includes('♭')) {
       randomTone = notes[Math.floor(Math.random() * notes.length)] as Note
     }
-  } else if (altoNatToLowerCase === 'alt' && minoMajToLowerCase === undefined) {
+    if (minoMajToLowerCase === 'min') {
+      randomTone += 'm'
+    }
+  } else if (altoNatToLowerCase === 'alt') {
     randomTone = notes[Math.floor(Math.random() * notes.length)] as Note
-    while (!randomTone.includes('#') || !randomTone.includes('♭')) {
+    while (!randomTone.includes('#') && !randomTone.includes('♭')) {
       randomTone = notes[Math.floor(Math.random() * notes.length)] as Note
+      console.log('randomTone', randomTone)
     }
-  } else if (altoNatToLowerCase === undefined && minoMajToLowerCase === 'maj') {
-    randomTone = notes[Math.floor(Math.random() * notes.length)] as Note
-  } else if (altoNatToLowerCase === undefined && minoMajToLowerCase === 'min') {
-    randomTone = (notes[Math.floor(Math.random() * notes.length)] as Note) + 'm'
-  } else if (altoNatToLowerCase === 'alt' && minoMajToLowerCase === 'min') {
-    randomTone = notes[Math.floor(Math.random() * notes.length)] as Note
-    while (!randomTone.includes('#') || !randomTone.includes('♭')) {
-      randomTone =
-        (notes[Math.floor(Math.random() * notes.length)] as Note) + 'm'
-    }
-  } else if (altoNatToLowerCase === 'nat' && minoMajToLowerCase === 'min') {
-    randomTone = notes[Math.floor(Math.random() * notes.length)] as Note
-    while (randomTone.includes('#') || randomTone.includes('♭')) {
-      randomTone =
-        (notes[Math.floor(Math.random() * notes.length)] as Note) + 'm'
+    if (minoMajToLowerCase === 'min') {
+      randomTone += 'm'
     }
   } else {
     randomTone = notes[Math.floor(Math.random() * notes.length)] as Note
+    if (minoMajToLowerCase === 'min') {
+      randomTone += 'm'
+    }
   }
   return { tone: randomTone }
 }

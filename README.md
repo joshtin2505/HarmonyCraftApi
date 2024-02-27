@@ -30,5 +30,6 @@
       }
     ]
 ```
-### To fix 
+### fixed 
 - alt param of tone random
+  
